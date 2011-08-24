@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require File.join(File.dirname(__FILE__), "..", "lib", "gemr")
+
+if ARGV[0].nil?
+  puts "Usage: gemr gem_one gem_two"
+else
+  Gemr::Rubygems::Versions.latest(ARGV)
+end
