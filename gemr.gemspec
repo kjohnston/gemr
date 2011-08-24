@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Kenny Johnston"]
   s.email       = ["kjohnston.ca@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: A quick gem for displaying the latest versions of gems.}
-  s.description = %q{TODO: A quick gem for displaying the latest versions of gems.}
+  s.summary     = %q{A quick gem for displaying the latest versions of gems.}
+  s.description = %q{A quick gem for displaying the latest versions of gems.}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
