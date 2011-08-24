@@ -21,3 +21,5 @@ Simply pass one or more gem names to the gemr executable, like so:
 	
 	gem "porter", "~> 1.0.2"
 	gem "rspec-rails", "~> 2.6.1"
+	
+The results are formatted for inclusion in your Gemfile.
