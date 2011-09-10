@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Gemr::VERSION
   s.authors     = ["Kenny Johnston"]
   s.email       = ["kjohnston.ca@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/kjohnston/gemr"
   s.summary     = %q{A quick gem for displaying the latest versions of gems.}
   s.description = %q{A quick gem for displaying the latest versions of gems.}
 
