@@ -3,7 +3,7 @@ module Gemr
     class Versions
 
       # Don't care if cert is invalid, we're just reading
-      OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
+      OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE unless defined?(OpenSSL::SSL::VERIFY_PEER)
 
       def self.latest(gems=[])
         puts "\nFinding latest gem versions...\n\n"
