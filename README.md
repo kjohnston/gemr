@@ -4,11 +4,11 @@ A Ruby gem that provides a command line utility for displaying the latest versio
 
 Tired of going to [http://rubygems.org](http://rubygems.org) to lookup the latest version of gems?  Use gemr from the command line to quickly retrieve entries for your Gemfile.
 
-## INSTALLATION
+## Installation
 
 	$  gem install gemr
 
-## USAGE
+## Usage
 
 Simply pass one or more gem names to the gemr executable, like so:
 
