@@ -1,8 +1,8 @@
-gemr
+# gemr
 
 A Ruby gem that provides a command line utility for displaying the latest versions of gems.
 
-Tired of going to rubygems.org to lookup the latest version of gems?  Use gemr from the command line to quickly retrieve entries for your Gemfile.
+Tired of going to [http://rubygems.org](http://rubygems.org) to lookup the latest version of gems?  Use gemr from the command line to quickly retrieve entries for your Gemfile.
 
 ## INSTALLATION
 
