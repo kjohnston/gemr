@@ -11,8 +11,6 @@ Gem::Specification.new do |s|
   s.summary     = %q{A quick gem for displaying the latest versions of gems.}
   s.description = %q{A quick gem for displaying the latest versions of gems.}
 
-  s.add_runtime_dependency "json", "~> 1.5.3"
-
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
