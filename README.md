@@ -19,9 +19,13 @@ Simply pass one or more gem names to the gemr executable, like so:
 	Finding latest gem versions...
 	
 	gem "porter", "~> 1.2.1"
-	gem "rspec-rails", "~> 2.9.0.rc2"
+	gem "rspec-rails", "~> 2.10.1"
 	
 The results are formatted for inclusion in your Gemfile.
+
+## Ruby Support
+
+Ruby 1.9.2 and up.
 
 ## License
 
