@@ -6,7 +6,7 @@ module Gemr
         puts "\nFinding latest gem versions...\n\n"
         gems.each do |g|
           begin
-            response = open("https://rubygems.org/api/v1/versions/#{g}.json").read
+            response = URI.open("https://rubygems.org/api/v1/versions/#{g}.json").read
             versions = JSON.parse(response)
             latest_version = versions.first["number"]
             puts "gem \"#{g}\", \"~> #{latest_version}\""
